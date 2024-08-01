@@ -1,0 +1,15 @@
+{
+  "Author": "Cometo",
+  "Name": "Gamba",
+  "Punchline": "Let's go gambling!",
+  "RepoUrl": "https://github.com/Comfefe/Gamba.git",
+  "Description": "A simple plugin for casino dealers to easily manage all their player's bets and \nquickly getting the payout of each round to keep the gambing going.",
+  "InternalName": "Gamba",
+  "IconUrl": "https://raw.githubusercontent.com/Comfefe/Gamba/main/images/gamble.png",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "UI",
+    "Social",
+    "Other"
+  ]
+}
