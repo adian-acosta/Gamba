@@ -35,7 +35,7 @@ internal static class Helpers
             ImGuiComponents.HelpMarker(helpText);
     }
 
-    // Draw an input field for a double with optional help text
+    // Draw an input field for a float with optional help text
     public static void InputFloat(string label, ref float refValue, string helpText = "")
     {
         ImGui.InputFloat($"{label}", ref refValue, 0.5f);
