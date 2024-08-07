@@ -1,5 +1,6 @@
 ﻿using Dalamud.Interface.Colors;
 using ImGuiNET;
+using System.ComponentModel.DataAnnotations;
 
 namespace Gamba.Utils;
 
@@ -137,11 +138,12 @@ public static class Draw
         {
             var bet = Player.GetPlayerBet(name);
             bet = (int)(bet * Service.Configuration.BlackjackPayoutFactor) + bet;
-            ImGui.Text($"{bet}");
+            ImGui.Text(bet.ToString("N0"));
         }
         else
         {
-            ImGui.Text($"{Player.GetPlayerBet(name) * 2}");
+            var bet = Player.GetPlayerBet(name) * 2;
+            ImGui.Text(bet.ToString("N0"));
         }
     }
 }

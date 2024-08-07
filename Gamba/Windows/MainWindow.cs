@@ -33,7 +33,7 @@ public class MainWindow : Window, IDisposable
         if (Service.Configuration.Blackjack)
             Helpers.InputFloat("Payout Factor", ref Service.Configuration.BlackjackPayoutFactor,
                 "- The factor by which the payout is multiplied by when a player gets blackjack." +
-                "\n\n - For example, if the payout factor is 1.5 (3:2) and a player bets 100 gil, they will receive 250 gil in total if they hit blackjack rather than the standard 200 gil." +
+                "\n\n - For example, if the payout factor is 1.5 (3:2) and a player bets 100 gil, they will receive 250 gil in total if they get blackjack rather than the standard 200 gil." +
                 "\n\n- The default value is 1.5.");
         ImGui.Separator();
         ImGui.Spacing();
