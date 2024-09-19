@@ -3,6 +3,9 @@
 A plugin for the game Final Fantasy 14 that lets players who are casino dealers have a easy way to manage their players bet amounts
 and be able to quickly get the players payout at the end of each round to make the trading process faster and keeping the gambling going fast and smooth.
 
+Point of it is that I know some dealers would have a notebook and calculator on hand to manage their bets and keep track of it all. This is just a way to 
+have a quick easy info to keep track of in game.
+
 ## Installation & How to use
 
 * The plugin can be found by searching in game within the Dalamud plugins, if you don't have Dalamud follow these steps. First download the [XIVLauncher](https://goatcorp.github.io/)
